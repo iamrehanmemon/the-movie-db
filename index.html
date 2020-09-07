@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/d5a9e728e6.js"
+      crossorigin="anonymous"
+    ></script>    
+    <script defer src="index.js"></script>
+  <body class="dark light">
+    <div class="nav">
+      <div class="navbox container">
+        <div class="navcontent">
+          <ul class="nav">
+            <li><a class="logo" href="#">Popdog</a></li>
+            <li><a class="nav-items" href="#">Movies</a></li>
+            <li><a class="nav-items" href="#">TV Shows</a></li>
+            <li><a class="nav-items" href="#">People</a></li>
+            <li><a class="nav-items" href="#">More</a></li>
+            
+          </ul>
+        </div>
+        <div class="navcontent">
+          <ul class="nav">
+            <li class="nav-icon nav-items">
+              <img src="./assets/images/icons8-plus.svg" alt="Plus logo">
+            </li>
+            <li class="has-dropdown"><a class="nav-items" id="theme" href="#">Theme</a>
+              <ul class="dropdown" id="toggle-dropdown">
+                <li class="dropdown-item">
+                  <a href="#" id="dark">Dark</a>
+                </li>
+                <li class="dropdown-item">
+                  <a href="#" id="light">Light</a>
+                </li>
+              </ul>
+            
+            </li>
+            <li><a class="nav-items" href="#">Login</a></li>
+            <li><a class="nav-items" href="#">Join the Community</a></li>
+            <li class="nav-icon nav-items">
+              <img src="./assets/images/icons8-search.svg" alt="Search logo">
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="hero container">
+      <div class="hero__content">
+        <h1>A new way to find out what's on.</h1>
+        <p>
+          Sign up with your Twitch or YouTube (soon!) account and watch all of
+          your favorite streams here on Popdog. Want more info?
+          <a class="link" href="#">Check out our video.</a>
+        </p>
+        <button class="btn">
+          <span class="btn__text">Sign Up with PopDog</span>
+        </button>
+      </div>
+      <div class="hero__img">
+        <div class="hero__img--1">
+          <img src="./assets/icons/twitch.svg" class="icon-1" alt="twitch logo" height="80" width="80">
+          <img src="./assets/icons/youtube.svg" class="icon-2" alt="youtube logo" height="80" width="80">
+        </div>
+
+        <div class="hero__img--2">
+          <img src="./assets/images/running-dog.png" alt="running dog">
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="movie-header">
+        <span class="header">Top Games</span>
+        <div class="custom-select">
+          <select>
+            <option value="Streaming">Streaming </option>
+            <option value="On TV">On TV</option>
+            <option selected value="For Rent">For Rent</option>
+            <option value="In Theaters">In Theaters</option>
+          </select>
+          <span class="custom-arrow"></span>
+        </div>
+          
+      </div>
+      <div class="movie">
+        <div class="card">
+          <div class="card__img">
+            <img class="poster" src="./assets/images/movie1.jpg" alt="Movie1">
+          </div>
+          <div class="card__body">
+            <h3 class="card__name">Movie Name</h3>
+            <p class="card__desc">16 Jul 2020</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__img">
+            <img class="poster" src="./assets/images/movie1.jpg" alt="Movie1">
+          </div>
+          <div class="card__body">
+            <h3 class="card__name">Movie Name</h3>
+            <p class="card__desc">16 Jul 2020</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__img">
+            <img class="poster" src="./assets/images/movie1.jpg" alt="Movie1">
+          </div>
+          <div class="card__body">
+            <h3 class="card__name">Movie Name</h3>
+            <p class="card__desc">16 Jul 2020</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__img">
+            <img class="poster" src="./assets/images/movie1.jpg" alt="Movie1">
+          </div>
+          <div class="card__body">
+            <h3 class="card__name">Movie Name</h3>
+            <p class="card__desc">16 Jul 2020</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__img">
+            <img class="poster" src="./assets/images/movie1.jpg" alt="Movie1">
+          </div>
+          <div class="card__body">
+            <h3 class="card__name">Movie Name</h3>
+            <p class="card__desc">16 Jul 2020</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__img">
+            <img class="poster" src="./assets/images/movie1.jpg" alt="Movie1">
+          </div>
+          <div class="card__body">
+            <h3 class="card__name">Movie Name</h3>
+            <p class="card__desc">16 Jul 2020</p>
+          </div>
+        </div>
+        
+      </div> 
+    </div>
+    
+    <div class="latest-trailer container">
+      <div class="trailer-header ">
+        <span class="header">Latest Trailer</span>
+        <div class="custom-select">
+          <select>
+            <option value="Streaming">Streaming </option>
+            <option value="On TV">On TV</option>
+            <option selected value="For Rent">For Rent</option>
+            <option value="In Theaters">In Theaters</option>
+          </select>
+          <span class="custom-arrow"></span>
+        </div>
+          
+      </div>
+  
+      <div class="trailer">
+        <div class="card">
+          <div class="video__img">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/nfs8NYg7yQM?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div class="trailer__body">
+            <h3 class="card__name">The Hauting</h3>
+            <p class="card__desc">The Haunting of Bly Manor | Teaser Trailer | Netflix</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__img">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Io0fBr1XBUA?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div class="card__body">
+            <h3 class="card__name">The Hauting</h3>
+            <p class="card__desc">The Haunting of Bly Manor | Teaser Trailer | Netflix</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__img">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/YykjpeuMNEk?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div class="card__body">
+            <h3 class="card__name">The Hauting</h3>
+            <p class="card__desc">The Haunting of Bly Manor | Teaser Trailer | Netflix</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__img">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/YykjpeuMNEk?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div class="card__body">
+            <h3 class="card__name">The Hauting</h3>
+            <p class="card__desc">The Haunting of Bly Manor | Teaser Trailer | Netflix</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__img">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Io0fBr1XBUA?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div class="card__body">
+            <h3 class="card__name">The Hauting</h3>
+            <p class="card__desc">The Haunting of Bly Manor | Teaser Trailer | Netflix</p>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+
+    <footer class="single_column container">
+      <nav>
+        <div class="footer_content">
+          <img src="https://www.themoviedb.org/assets/2/v4/logos/v2/blue_square_2-d537fb228cf3ded904ef09b136fe3fec72548ebc1fea3fbbd1ad9e36364db38b.svg"
+           alt="The Movie Database (TMDb)" padding=20px width="130" height="94">
+           <a href="#" class="rounded">JOIN THE COMMUNITY</a>
+        </div>
+        <div class="footer_content vl" id="footer-1">
+          <a href="#">THE BASICS</a>
+          <a href="#">Contact Us</a>
+          <a href="#">Careers</a>
+          
+        </div>
+        <div class="footer_content vl" id="footer-2">
+          
+          <a href="#">GET INVOLVED</a>
+          <a href="#">Add New TV Show</a>
+          <a href="#">Add New Movie</a>
+          
+        </div>
+        <div class="footer_content vl" id="footer-3">
+          
+          <a href="#">© 2020 TMDB, Inc. All rights reserved.</a>
+          <a href="#">Terms of Use</a>
+          <a href="#">Privacy Policy</a>
+          
+        </div>
+        
+        
+      </nav>
+    </footer>
+
+
+
+  </body>
+</html>
